@@ -1,0 +1,121 @@
+/* pages/addto/addto.wxss */
+/* 添加获奖记录页面样式设置*/
+/* ！！！问题记录 提交按钮设置有问题 按钮样式与其他页面不一致 按钮按动是阴影效果设置错误需修改 */
+
+@import "/iconfont.wxss";
+.main{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+}
+.addto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 10rpx;
+}
+.space{
+  width: 180px;
+  height: 50px;
+} 
+/* 标题框布局 */
+.title {
+  width: 295px;
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20rpx;
+}
+/* 标题一：添加获奖记录（大） */
+.t1{
+  width: 295px;
+  height: 40px;
+  color: #203152;
+  font-family: "PingFangSC-Regular";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: center;
+}
+/* 辩题二：备注（小） */
+.t2{
+  width: 295px;
+  height: 15px;
+  color: #7c8698;
+  font-family: "PingFangSC-Regular";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: center;
+}
+/* 输入框整体样式 */
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20rpx;
+  align-items: center;
+  width: 335px;
+  height: 500px;
+  background: rgba(255,255,255,0.9);
+  box-shadow: 0px 20px20px rgba(0,0,0,0.05);
+  border-radius: 10rpx;   /*圆角半径*/
+}
+/*单个输入框样式 */
+.theme{
+  margin-top: 20px;
+  width: 295px;
+  height: 71px;
+  border-bottom: 0.5px solid #d6d6d6;
+}
+/*输入框标题 */
+.theme_title{
+  width: 100px;
+  height: 36px;
+  color: #203152;
+  font-family: "PingFangSC-Regular";
+  font-size: 14px;
+  font-weight: 450;
+  line-height: 18px;
+}
+
+/*inputbox样式  */
+.inputBox{
+  width: 295px;
+  height: 25px;
+  color: #030303;
+  font-family: "PingFangSC-Regular";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+}
+/* 增距空白框样式 */
+.space1{
+  width: 180px;
+  height: 45px;
+}
+
+
+/* 提交按钮样式 （按钮样式与其他页面不一致需修改）*/
+.submit{
+
+  width: 295px;
+  height: 55px;
+  background: #5680fa;
+  align-items: center;
+  color: white;
+  font-family: "PingFangSC-Regular";
+  font-size: 21px;
+  font-weight: 46px;
+  line-height: 29px;
+  border-radius: 55rpx;   /*圆角半径*/
+
+}
+/* 按钮按动效果（需修改） */
+.submit:active{
+  background-color: #4068dd 
+}

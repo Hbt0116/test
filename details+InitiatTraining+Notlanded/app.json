@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "pages/Notlanded/Notlanded",
+    "pages/logs/logs",
+    "pages/Landed/Landed",
+    "pages/Mylists/Mylists",
+    "pages/train/train",
+    "pages/InitiatTraining/InitiatTraining",
+    "pages/addto/addto",
+    "pages/fail/fail",
+    "pages/detail/detail",
+    "pages/contest/contest"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

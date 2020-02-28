@@ -1,0 +1,44 @@
+ <!--logs.wxml-->
+<view>
+    <view class="my">
+    </view>
+    <view class="first">
+        <view class="js">培训</view>
+        <view class="fenlei">
+         <view class="select_box">
+         <view class="select" catchtap="selectTaps">
+          <text class="select_text">{{selectDatas[indexs]}}</text>
+          <image class='select_img {{shows&&"select_img_rotate"}}' src='../../images/sanjiao.png'></image>
+         </view>
+         <view class='option_box' style='height:{{shows?(selectDatas.length>5?300:selectDatas.length*60):0}}rpx;'>
+         <text class='option' style='{{indexs==selectDatas.length-1&&"border:0;"}}' wx:for='{{selectDatas}}' wx:key='this' data-index='{{index}}' catchtap='optionTaps'>{{item}}</text>
+         </view>
+         </view>
+        </view>
+     <view class="jia" bindtap="goToInitiatTraining">+</view>
+  </view>
+    <view class="search">
+    <image src="../../images/search.jpg"></image>
+    <input type="text" placeholder="搜索" class="word" placeholder-style="color:#7C8698;font-size:17px;font-weight:700"></input>
+    </view>
+
+    <view class="exemple">
+    <image src="../../images/po1.png"></image>
+    <view class="sai">
+    <view class="s">数学建模相似赛事</view>
+    <view class="d">程哲</view>
+    <view class="r">02月19日 19时</view>
+    <view class="l">实训大楼418</view>
+    </view>
+    <view class="sy">无通知</view>
+
+    <image src="../../images/po2.png"></image>
+    <view class="sai1">
+    <view class="s">Kubernetes入门</view>
+    <view class="d1">陆麟趾</view>
+    <view class="r1">04月08日 19时</view>
+    <view class="l1">实训大楼418</view>
+    </view>
+    <view class="sy1">通知！</view>
+    </view>
+</view>

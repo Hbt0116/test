@@ -1,0 +1,24 @@
+<!--pages/fail/fail.wxml-->
+<scroll-view class="main">
+  <view class="destination_details">
+    <view class="title">Kubetnetes入门</view>
+    <view class="person">培训人：程哲</view>
+    <view class="divLine"></view>
+    <view class="time">培训时间：2020年4月8日 19时</view>
+    <view class="place">培训地点：实训大楼418</view>
+    <view class="image_text">
+      <image src="/images/model.jpg" class="photo">
+        <view class="issue">未通过</view>
+      </image>
+    </view>
+    <view class="box1">
+      <text>驳回理由：时间冲突！</text>
+    </view>
+    <view class="box2">
+      <text>数学建模就是根据实际问题来建立数学模型，对数学模型来进行求解，然后根据结果去解决实际问题。</text>
+    </view>
+  </view>
+  <button class="start" hover-class="other-button-class" >
+    <text class="starttext">调整培训计划</text>  
+  </button>
+</scroll-view>

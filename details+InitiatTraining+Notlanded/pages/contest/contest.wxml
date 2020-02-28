@@ -1,0 +1,50 @@
+<!--contest.wxml-->
+<view>
+    <view class="first">
+        <view class="js">竞赛</view>
+        <view class="jia" bindtap="goToaddto">+</view>
+    </view>
+    
+    <view class="search">
+    <image src="../../images/search.jpg"></image>
+    <input type="text" placeholder="搜索" class="word" placeholder-style="color:#7C8698;font-size:17px;font-weight:700"></input>
+    </view>
+    
+    <view class="exemple">
+    <image src="../../images/challenge.png"></image>
+    </view>
+    
+    <view class="popular">我的获奖记录
+    <image src="../../images/internet.jpg"></image>
+    <view class="sai">
+    <view class="s">“互联网”+创新创业大赛</view>
+    <view class="r">2019年8月</view>
+    </view>
+    <view class="sy">省银</view>
+    
+    <image src="../../images/model(1).jpg"></image>
+    <view class="sai1">
+    <view class="s">全国大学生数学建模大赛</view>
+    <view class="r1">2019年9月</view>
+    </view>
+    <view class="sy1">国二</view>
+    </view>
+    
+    <view class="tab">
+        <view class="top">
+       <view class="average" bindtap="goTocontest"> <image src="../../images/ico3.png" class="average"></image></view>
+
+       <view class="average" bindtap="goTodetail"> <image src="../../images/ico2.png" class="average"></image></view>
+
+        <view id='ico'>
+         <view class="average" bindtap="goToLanded"><image style='width:50px;height:50px;' src="../../images/RY.png" class="average"></image></view>
+        </view>
+         <view class="average" bindtap="goTologs"> <image src="../../images/ico1.png" class="average"></image></view>
+        <view class="average" bindtap="goToMylists"><image src="../../images/ico4_active.png" class="average"></image></view>
+        </view>
+        
+        <view class="bottom">
+        <view class="box"></view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,137 @@
+/**Landed.wxss**/
+.user {
+  height: 432rpx;
+  margin-top: 24%;
+  position: relative;
+  text-align: center;
+  
+}
+.user image {
+  height: 278rpx;
+  width: 278rpx;
+  border-radius: 50%;
+  border: 14rpx solid #fff;
+  position: absolute;
+  left: 220rpx;
+  box-shadow:0 6rpx 20rpx gray;
+}
+.word {
+  position: absolute;
+  top: 360rpx;
+  left: 306rpx;
+  font-family: "PingFangSC-Regular";
+}
+.t {
+  font-size: 44rpx;
+  color: #203152;
+  line-height: 68rpx;
+}
+.b {
+  font-size: 30rpx;
+  color: #7C8698;
+}
+.social {
+  height: 12%;
+  width: 90%;
+  margin-top: 15%;
+  position: fixed;
+  display: flex;
+  text-align: center;
+  left: 5%;
+  border-radius:20rpx;
+  box-shadow:0 6rpx 20rpx gray;
+  /* box-shadow: 0 0 5px #aaa, 0 3px 0 #aaa, 0 4px 0 #aaa,0 5px 5px #aaa,0 0 5px #aaa inset; */
+  font-family: "PingFangSC-Regular";
+}
+.px {
+  flex: 1;
+  position: relative;
+}
+.px :nth-child(1) {
+  position: absolute;
+  top: 15%;
+  left: 42%;
+  font-size: 46rpx;
+  color: #203152;
+}
+.px :nth-child(2) {
+  position: absolute;
+  top: 55%;
+  left: 40%;
+  font-size: 32rpx;
+  color: #7C8698;
+}
+.hj {
+  flex: 1;
+  position: relative;
+}
+.hj :nth-child(1) {
+  position: absolute;
+  top: 15%;
+  left: 46%;
+  font-size: 44rpx;
+  color: #203152;
+}
+.hj :nth-child(2) {
+  position: absolute;
+  top: 55%;
+  left: 23%;
+  font-size: 32rpx;
+  color: #7C8698;
+}
+.xm {
+  flex: 1;
+  position: relative;
+}
+.xm :nth-child(1) {
+  position: absolute;
+  top: 15%;
+  left: 45%;
+  font-size: 44rpx;
+  color: #203152;
+}
+.xm :nth-child(2) {
+  position: absolute;
+  top: 55%;
+  left: 36%;
+  font-size: 32rpx;
+  color: #7c8698;
+}
+.tab {
+  height: 168rpx;
+  width: 760rpx;
+  bottom: 0;
+  position: fixed;
+}
+.top {
+  height: 120rpx;
+  background-color: #fff;
+  display: flex;
+  /* position: relative; */
+}
+.top .average {
+  width: 60rpx;
+  height: 52rpx;
+  margin: auto;
+}
+#ico image{
+  width: 100rpx;
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+#ico .average{
+  width: 100rpx;
+  height: 100rpx;
+}
+.box {
+  width: 240rpx;
+  height:14rpx;
+  background-color: black;
+  margin: 20rpx auto;
+  border-radius: 20rpx;
+
+}

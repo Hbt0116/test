@@ -1,0 +1,57 @@
+<!--pages/addto/addto.wxml-->
+<scroll-view class="main">
+<form bindsubmit="formSubmit" >
+  <view class="addto">
+    <view class="space">
+    </view> 
+    <view class="title">
+      <view class="t1">添加获奖记录</view>
+      <view class="t2">添加您的获奖记录方便之后评优喔</view>
+    </view>
+    <view class="form">
+      <!-- 输入竞赛名称 -->
+      <view class="theme">
+        <view class="theme_title">竞赛名称</view>
+        <view class="inputBox">
+          <input placeholder="输入竞赛的名称"></input>
+        </view>
+      </view>
+      <!-- 输入所获奖项 -->
+      <view class="theme">
+        <view class="theme_title">所获奖项</view>
+        <view class="inputBox">
+          <input placeholder="输入所获得的奖项"></input>
+        </view>
+      </view>
+      <!-- 输入参赛队伍名 -->
+      <view class="theme">
+        <view class="theme_title">参赛队伍</view>
+        <view class="inputBox">
+          <input placeholder="输入参赛队伍的名称"></input>
+        </view>
+      </view>
+      <!-- 输入参赛项目名称 -->
+      <view class="theme">
+        <view class="theme_title">参赛项目名称</view>
+          <view class="inputBox">
+          <input placeholder="输入参赛项目的名称"></input>
+        </view>
+      </view>
+      <!-- 输入赛事时间 -->
+      <view class="theme">
+        <view class="theme_title">赛事时间</view>
+        <view class="inputBox">
+        <picker mode="date" value="{{date}}" start="2016-01-01" end="" bindchange="bindDateChange">
+          <input placeholder="输入赛事时间" value="{{date}}" disabled="true"></input>
+         </picker>
+        </view>
+      </view>
+     
+    </view>
+   
+    <!-- 提交按钮 -->
+    <button class="submit" formType="submit">提交
+    </button>
+  </view>
+  </form>
+</scroll-view>

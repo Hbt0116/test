@@ -1,0 +1,26 @@
+<!-- 培训详情页面 -->
+<!--pages/detail/detail.wxml-->
+<scroll-view class="main">
+  <view class="destination_details">
+    <view class="title">Kubetnetes入门</view>
+    <view class="person">培训人：陆麟趾</view>
+    <view class="time">培训时间：2020年4月8日 19时</view>
+    <view class="place">培训地点：实训大楼418</view>
+    <view class="image_text">
+      <!-- 海报部分：要求可以上传文件并预览 -->
+      <image src="/images/kubernetes.png" class="photo">
+        <view class="issue">通知!</view>
+      </image>
+    </view>
+    <view class="box1">
+      <text>目前培训时间调整到4月8日20时！望周知！</text>
+    </view>
+    <view class="box2">
+      <text>kubernetes,简称K8s,是用8代替8个字符“ubernete”而成的缩写。是一个开源的，用于管理云平台中多个主机上的容器化的应用，Kubernetes的目标是让部署容器化的应用简单并且高效(powerful),Kubernetes提供了应用部署，规划，更新，维护的一种机制。</text>
+    </view>
+  </view>
+  <!-- “开始”按钮 -->
+  <button class="start" hover-class="other-button-class" >
+    <text class="starttext">未开始</text>  
+  </button>
+</scroll-view>

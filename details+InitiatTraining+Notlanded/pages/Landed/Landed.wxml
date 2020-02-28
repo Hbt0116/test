@@ -1,0 +1,39 @@
+<!--Landed.wxml-->
+<view>
+    <view class="user">
+        <image src="../../images/head.jpg"></image>
+        <view class="word">
+        <view class="t">父亲陆</view>
+        <view class="b">后端组组长</view>
+        </view>
+    </view>
+    <view class="social">
+        <view class="px">
+        <view>10</view>
+        <view>培训</view>
+        </view>
+        <view class="hj">
+        <view>5</view>
+        <view>竞赛获奖</view>
+        </view>
+        <view class="xm">
+        <view>5</view>
+        <view>项目</view>
+        </view>
+    </view>
+    <view class="tab">
+        <view class="top">
+       <view class="average" bindtap="goTocontest"> <image src="../../images/ico3.png" class="average"></image></view>
+       <view class="average" bindtap="goTodetail"> <image src="../../images/ico2.png" class="average"></image></view>
+        <view id='ico'>
+        <view class="average" bindtap="goToLanded"><image style='width:50px;height:50px;' src="../../images/RY.png" class="average"></image></view>
+        </view>
+        <view class="average" bindtap="goTologs"> <image src="../../images/ico1.png" class="average"></image></view>
+
+        <view class="average" bindtap="goToMylists"><image src="../../images/ico4_active.png" class="average"></image></view>
+        </view>
+        <view class="bottom">
+        <view class="box"></view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,263 @@
+.my{
+  height: 10px;
+}
+.first {
+  height: 80px;
+}
+.js {
+  font-size: 20px;
+  font-style: PingFangSC-Semibold;
+  color: #203152;
+  margin-left: 5%;
+  line-height:45px; 
+  height: 80px;
+  float: left;
+}
+/* fenlei */
+.fenlei{
+  background-color: white;
+  height: 40px;
+  width: 40%;
+  line-height: 45px;
+  
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 30px;
+  border-bottom: 1rpx solid #5680fa;
+}
+.fenlei text{
+  font-size: 30rpx;
+  color: #5680fa;
+  margin-left: 15rpx;
+}
+
+/* 下拉框 */
+.select_box {
+  background: white;
+  width: 100%;
+  margin: 0 auto; 
+  height: 90rpx;
+  line-height: 90rpx;
+  text-align: left;
+  position: relative;
+}
+
+.select {
+  box-sizing: border-box;
+  width: 100%;
+  height: 86rpx;
+  border: 1px solid #5680fa; 
+  border-radius: 8rpx;
+  display: flex;
+  align-items: center;
+  padding: 0 20rpx;
+  margin: 0 auto;
+  border-radius: 30px;
+}
+
+.select_text {
+  font-size: 28rpx;
+  flex: 1;
+  color: rgb(102, 102, 102);
+  line-height: 86rpx;
+
+}
+
+.select_img {
+  width: 40rpx;
+  height: 40rpx;
+  display: block;
+  transition: transform 0.3s;
+}
+
+.select_img_rotate {
+  transform: rotate(180deg);
+}
+
+.option_box {
+  position: absolute;
+  top: 86rpx;
+  width: 100%;
+  /* border: 1px solid #efefef; */
+  box-sizing: border-box;
+  height: 0;
+  overflow-y: auto;
+  border-top: 0;
+  background: #fff;
+  transition: height 0.3s;
+  z-index: 100;
+}
+
+.option {
+  display: block;
+  line-height: 40rpx;
+  font-size: 28rpx;
+  border-bottom: 1px solid #efefef;
+  padding: 10rpx;
+  color: rgb(102, 102, 102);
+}
+
+
+.jia{
+  background-color: #5680fa;
+  height: 45px;
+  width: 45px;
+  float: right;
+  margin-right: 5%;
+  margin-top: -10%;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  font-size: 40px;
+  font-weight: 30px;
+ 
+}
+.search {
+  /* background-color: pink; */
+  height: 55px;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 30px;
+  box-shadow: 0 0 3px #5F687E; 
+}
+.search image {
+  height: 20px;
+  width: 20px;
+  margin-top: 15px;
+  margin-left: 25px;
+  float: left;
+}
+.word {
+  margin-left: 10px;
+  margin-top: 15px;
+  float: left;
+  color: #000103;
+}
+.exemple {
+  height: 300px;
+  margin-top: 30px;
+  margin-left: 25px;
+}
+.exemple image {
+  height: 200px;
+  width: 95%;
+}
+.sai {
+  background-color: rgba(250, 244, 244, 0.788);
+  height: 100px;
+  width: 260px;
+  position: absolute;
+  top: 260px;
+  left: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px gray;
+}
+.sai1 {
+  background-color: rgba(250, 244, 244, 0.788);
+  height: 100px;
+  width: 260px;
+  position: absolute;
+  top: 460px;
+  left: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px gray;
+}
+.sai .s {
+  font-weight: bold;
+  color: #203152;
+  font-size: 18px;
+  height: 20px;
+  margin-left: 10px;
+}
+.sai1 .s {
+  font-weight: bold;
+  color: #203152;
+  font-size: 18px;
+  height: 20px;
+  margin-left: 10px;
+}
+.sai .d {
+  font-weight: bold;
+  color: #7C8698;
+  font-size: 12px;
+  height: 5px;
+  margin-top: 15px;
+  margin-left: 9px;
+}
+.sai1 .d1 {
+  font-weight: bold;
+  color: #7C8698;
+  font-size: 12px;
+  height: 5px;
+  margin-top: 15px;
+  margin-left: 9px;
+}
+
+.sai .r {
+  font-weight: bold;
+  color: #7C8698;
+  font-size: 12px;
+  height: 5px;
+  margin-top: 15px;
+  margin-left: 9px;
+}
+.sai1 .r1 {
+  font-weight: bold;
+  color: #7C8698;
+  font-size: 12px;
+  height: 5px;
+  margin-top: 15px;
+  margin-left: 9px;
+}
+.sai .l {
+  font-weight: bold;
+  color: #7C8698;
+  font-size: 12px;
+  height: 5px;
+  margin-top: 15px;
+  margin-left: 9px;
+}
+.sai1 .l1 {
+  font-weight: bold;
+  color: #7C8698;
+  font-size: 12px;
+  height: 5px;
+  margin-top: 15px;
+  margin-left: 9px;
+}
+.sy {
+  background-color: #FA607D;
+  color: #fff;
+  width: 60px;
+  height: 34px;
+  text-align: center;
+  line-height: 34px;
+  font-size: 14px;
+  border-radius: 20px;
+  font-weight: 600;
+  position: absolute;
+  top: 190px;
+  left: 300px;
+}
+.sy1 {
+  background-color: yellow;
+  color: black;
+  width: 60px;
+  height: 34px;
+  text-align: center;
+  line-height: 34px;
+  font-size: 14px;
+  border-radius: 30px;
+  font-weight: 600;
+  position: absolute;
+  top: 390px;
+  left: 300px;
+}
+.bottom {
+  height: 80px;
+  position: relative;
+  top: 343px;
+}
+
+

@@ -1,0 +1,61 @@
+<!-- 发起培训 -->
+<!--pages/faqi/faqi.wxml-->
+<scroll-view class="main">
+  <view class="faqi">
+    <view class="title">
+      <view class="a1">发起培训</view>
+      <view class="a2">请输入您所想发起培训的相关信息</view>
+    </view>
+    <view class="form">
+      <!-- 输入培训主题 -->
+      <view class="theme">
+        <view class="theme_title">培训主题</view>
+        <view class="inputBox">
+          <input placeholder="输入培训的主题" placeholder-style="color: #f2f2f2;" value="{{theme}}" bindblur='ThemeInput'></input>
+        </view>
+      </view>
+      <!-- 输入培训时间 -->
+      <view class="theme">
+        <view class="theme_title">培训时间</view>
+        <view class="inputBox">
+          <input placeholder="输入培训的时间" placeholder-style="color: #f2f2f2;" value="{{time}}" bindblur='TimeInput'></input>
+        </view>
+      </view>
+      <!-- 输入培训地点 -->
+      <view class="theme">
+        <view class="theme_title">培训地点</view>
+        <view class="inputBox">
+          <input placeholder="输入培训的地点" placeholder-style="color: #f2f2f2;" value="{{destination}}" bindblur='DestinationInput'></input>
+        </view>
+      </view>
+      <!-- 输入培训描述 -->
+      <view class="theme">
+        <view class="theme_title">培训描述</view>
+        <view class="inputBox">
+          <input placeholder="输入培训的描述" placeholder-style="color: #f2f2f2;" value="{{discription}}" bindblur='DiscriptionInput'></input>
+        </view>
+      </view>
+      <!-- 输入培训海报 -->
+      <view class="theme1">
+        <view class="theme_title1">培训海报</view>
+        <view class="poster">
+          <view style="height:119px;">
+            <image class="show-image" mode="aspectFitf" src="{{src}}" style="height:119px;"></image>
+          </view>
+        </view>
+        <!-- 提交按钮 -->
+        <!-- 提交按钮没有阴影 -->
+        <button class="submit" bindtap="setSubmit" hover-class="other-button-class">
+          <text class="submittext">提交审核</text>        
+        </button>
+      </view>
+      <view class="plus">
+          <text class="iconfont icon-plus" bindtap="gotoShow"></text>
+        <view wx:for="{{imagesList}}" wx:for-item="image" wx:key="index" class="previewimg">  
+          <image class='showImage' src="{{image}}" data-src="{{image}}" bindtap="previewImage"></image>  
+        </view>
+      </view>
+    </view>
+  </view>
+</scroll-view>
+
